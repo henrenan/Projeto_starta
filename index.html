@@ -204,12 +204,83 @@
                 <h5>Table</h5>
                 <h4>Default</h4>
 
-                <table><!--Tabela TR=coluna TD=Linha-->
-                    <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-                    <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-                    <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-                    <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-                </table>
+            <table class="table"><!--Tabela TR=coluna TD=Linha-->
+                    <thead><!--Estruturação da tabela-->
+                        <tr>
+                            <th>Name</th> <!--TH tag para coluna-->
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>100,00</td>
+                        </tr>
+                    </tfoot>   
+                    <tbody>
+                        <tr>
+                            <td>Item one</td>
+                            <td>Ante turpis integer aliquet porttitor.</td>
+                            <td>29,99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Two</td>
+                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                            <td>19,99</td>
+                        </tr>
+                        <tr>
+                            <td>Item three</td>
+                            <td>Morbi faucibus arcu accumsan lorem.</td>
+                            <td>29,99</td>
+                        </tr>
+                        <tr>
+                            <td>Item one</td>
+                            <td>Vitae integer tempus condimentum.</td>
+                            <td>29,99</td>
+                        </tr>
+                    </tbody> 
+            </table>
+
+            <h5>Alternate</h5>
+            
+            <table class="table-alternate">
+                <thaed>
+                    <tr>    
+                        <td>Name </td>
+                        <td>Description</td>
+                        <td>Price</td>
+                    </tr>
+                </thaed>
+                <foot>
+                   <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>100,00</td>
+                        </tr>
+                </tfoot> 
+                <tbody>
+                    <tr>
+                        <td>Item one</td>
+                        <td>Ante turpis integer aliquet porttitor</td>
+                        <td>29,99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Two</td>
+                        <td>Vis ac commodo adipiscing arcu aliquet</td>
+                        <td>19,99</td>
+                    </tr>
+                    <tr>
+                        <td>Item three</td>
+                        <td>Morbi faucibus arcu accumsan lorem</td>
+                        <td>29,99</td>
+                    </tr>
+
+                </tbody>   
+
+                
+
+
+            </table>
 
     
             
